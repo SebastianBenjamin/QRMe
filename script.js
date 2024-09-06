@@ -14,8 +14,6 @@ function makeCode () {
   document.getElementById('qrimage').style.display='none';
   document.getElementById('span').style.display='none';
   qrcode.makeCode(elText.value);
-  elText.value='';
-
 }
 
 
