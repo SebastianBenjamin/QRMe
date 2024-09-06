@@ -3,7 +3,6 @@ var qrcode = new QRCode("qrcode");
 function makeCode () {    
 
   var elText = document.getElementById("text");
-     elText.value='';
   if (!elText.value) {
     alert("Please enter a text/url to generate your QR code.");
     elText.focus();
@@ -15,6 +14,7 @@ function makeCode () {
   document.getElementById('qrimage').style.display='none';
   document.getElementById('span').style.display='none';
   qrcode.makeCode(elText.value);
+  elText.value='';
 
 }
 
