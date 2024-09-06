@@ -23,13 +23,13 @@ align-items: center;
 }  
 @keyframes move {
     0%{
-        top:40%;
+        top:41%;
     }
     50%{
         top:96%;
     }
     100%{
-        top:40%;
+        top:41%;
     }
 }
 .box{
